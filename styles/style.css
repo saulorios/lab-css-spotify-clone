@@ -6,3 +6,169 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.hiro-image {
+    background: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.menu-spot {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+}
+.menu-spot img{
+    height: 50px;   
+    margin: 10px 20px;    
+}
+.menu-spot ul{
+    list-style: none;  
+    text-align: center;
+    margin-right: 2%;
+}
+.menu-spot li {
+    display: inline;
+    text-decoration: none;  
+    margin: 0 10px 0 10px;
+}
+
+.menu-spot a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 17px;
+    transition: .3s ease-in-out;    
+}
+.menu-spot a:hover {
+    color: #00B172;
+}
+.hiro-word {    
+    color: #fff;
+    height: 88vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hiro-word h1 {
+    font-family: 'Montserrat';
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;;
+}
+.word-content {
+    display:flex;
+    flex-direction: column;    
+    align-items: center;
+    font-family: 'Roboto';
+}
+.word-content p{
+    text-align: center;
+    font-size: 24px;
+    width: 600px;
+}
+.container-ws{
+    font-family: 'Roboto';    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+}
+
+.container-ws .h2-ws {
+    text-align: center;
+    margin-bottom: 60px; 
+    
+}
+.h2-ws {
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #00B172;   
+}
+.box-cont {
+    display: flex;
+    justify-content: space-around;
+    color: #1A1A1A;
+}
+.box-cont img {
+    height: 70px;
+}
+.box-spot {
+    max-width: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.box-spot h3 {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #00B172;
+}
+.box-spot p {
+    padding: 10px 28px;
+    margin-top: 20px;
+}
+.container-end {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.green-frame {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    background-color: #00B172;
+    width: 95%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+.frame-left {
+    width: 50%;
+    color: #fff;
+    padding-top: 20px;
+}
+.frame-left h2 {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fff;
+    width: 90%; 
+}
+.frame-left h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding:  35px 0 35px 0;
+}
+.frame-left p {
+    width: 55%;
+} 
+.frame-right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0 50px 0;
+}
+.frame-right img {
+    width: 60%;
+}
